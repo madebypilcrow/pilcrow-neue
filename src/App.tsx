@@ -13,6 +13,13 @@ export default function App() {
           `${base}chronos/frame-03.webp`,
           `${base}chronos/frame-04.webp`,
           `${base}chronos/frame-05.webp`,
+          `${base}chronos/frame-06.webp`,
+          `${base}chronos/frame-07.webp`,
+          `${base}chronos/frame-08.webp`,
+          `${base}chronos/frame-09.webp`,
+          `${base}chronos/frame-10.webp`,
+          `${base}chronos/frame-11.webp`,
+          `${base}chronos/frame-12.webp`,
         ]}
       />
 
