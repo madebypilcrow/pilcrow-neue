@@ -1,8 +1,11 @@
 import { Routes, Route, Link } from "react-router-dom";
+import StopMotion from "./components/StopMotion";
 
 export default function App() {
   return (
-    <main style={{ padding: "2rem", fontFamily: "system-ui, sans-serif" }}>
+    <main style={{ padding: "2rem", minHeight: "200vh" }}>
+      <StopMotion frames={["/chronos/frame-01.webp"]} />
+
       <nav style={{ marginBottom: "2rem" }}>
         <Link to="/" style={{ marginRight: 16 }}>Home</Link>
         <Link to="/about">About</Link>
@@ -14,7 +17,7 @@ export default function App() {
           element={
             <>
               <h1>Pilcrow Neue</h1>
-              <p>If you can read this, routing is working.</p>
+              <p>Scroll the page. Image should remain fixed.</p>
             </>
           }
         />
@@ -23,7 +26,7 @@ export default function App() {
           element={
             <>
               <h1>About</h1>
-              <p>About page placeholder.</p>
+              <p>Placeholder.</p>
             </>
           }
         />
